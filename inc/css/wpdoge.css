@@ -1,0 +1,94 @@
+/** 
+* WP Doge styles
+*
+*
+*
+*            so styles
+*       
+* such cascade
+*
+*                very psuedo-element
+*            
+*     wow
+*
+*/
+
+.wp_doge_content {
+	min-height: 200px;
+	background: url('../img/wpdoge.png') no-repeat center right;
+	background-size: contain;
+	font-family: 'Comic Sans MS', cursive;
+	width: 100%;
+	text-shadow: 1px 1px 1px #ddd;
+	margin-bottom: 16px;
+	padding: 16px;
+}
+
+.wp_doge_content li {
+	list-style: none;
+	text-transform: lowercase;
+}
+
+.wp_doge_content li a {
+	text-decoration: none;
+	font-size: 18px;
+	border-bottom: none;
+	color: #000;
+}
+
+/* first category or tag */
+
+.wp_doge_content li:first-child a {
+	color: #0fdc3f;
+	margin-left: 10%;
+}
+
+.wp_doge_content li:first-child a:before {
+	content: 'so ';
+}
+
+/* second category or tag */
+
+.wp_doge_content li:nth-child(2) a {
+	color: #67abf2;
+	margin-left: 70%;
+}
+
+.wp_doge_content li:nth-child(2) a:before {
+	content: 'such ';
+}
+
+/* third category or tag */
+
+.wp_doge_content li:nth-child(3) a {
+	color: #ff0000;
+	margin-left: 50%;
+}
+
+.wp_doge_content li:nth-child(3) a:before {
+	content: 'very ';
+}
+
+/* fourth category or tag */
+
+.wp_doge_content li:nth-child(4) a {
+	color: #b90bea;
+	margin-left: 20%;
+}
+
+.wp_doge_content li:nth-child(4) a:before {
+	content: 'much ';
+}
+
+.wp_doge_content li:nth-child(4) a:after {
+	content: ' wow';
+	font-size: 32px;
+	margin-top: 48px;
+	margin-right: 10%;
+	color: fuchsia;
+	float: right;
+}
+
+.wp_doge_content li:nth-child(n+5) {
+	display: none;
+}
